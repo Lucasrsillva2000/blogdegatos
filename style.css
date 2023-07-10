@@ -183,3 +183,62 @@ footer p {
   font-weight: 600;
   line-height: normal;
 }
+
+@media (min-width: 1440px) {
+  body {
+    min-width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.2rem 10.2rem;
+  }
+
+  .input-wrapper input {
+    width: 108.3rem;
+    border-radius: 0.4rem;
+  }
+
+  .section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  main .container {
+    display: flex;
+
+    padding: 4rem 3rem 3rem 10rem;
+
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+
+  main .container .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem 0rem 3rem 0rem;
+  }
+
+  main p {
+    padding: 0rem 3rem 0rem 0rem;
+  }
+
+  main p:last-child {
+    padding: 3rem 3rem 0rem 0rem;
+  }
+
+  aside {
+    padding-top: 3rem;
+    margin-right: 9rem;
+    padding-right: 0rem;
+  }
+
+  footer {
+    min-width: 100vw;
+    height: 6.4rem;
+  }
+}
