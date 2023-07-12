@@ -46,7 +46,13 @@
   gap: 3.5rem;
 }
 
-header img {
+.logo {
+  width: 4.2rem;
+  height: 4.2rem;
+  border-radius: 50%;
+}
+
+.person {
   width: 4.2rem;
   height: 4.2rem;
   border-radius: 50%;
