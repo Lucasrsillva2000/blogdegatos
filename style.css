@@ -21,6 +21,7 @@
 }
 
 .container {
+  overflow-x: hidden;
   font-family: 'Mulish', sans-serif;
   font-size: 1.6rem;
   display: grid;
@@ -80,13 +81,12 @@ input {
 }
 
 input::placeholder {
+  opacity: 1;
   color: var(--bg-color);
 }
 
 .main {
   grid-area: main;
-  min-height: 0;
-  overflow: auto;
 }
 
 .main .container {
@@ -96,6 +96,8 @@ input::placeholder {
 }
 
 .cat {
+  width: 43.4rem;
+  height: 22rem;
   border-radius: 5px 5px 5px 5px;
 }
 
@@ -276,7 +278,7 @@ figure {
   }
 
   footer {
-  width: 100%;
+    width: 100%;
   }
 }
 
